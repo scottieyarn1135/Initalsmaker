@@ -2,9 +2,12 @@ from time import sleep
 
 application_name = "inital maker 3000"
 ai_name = "Billy"
-print("Hello and Thank you for using Yeet initals 3000 I am your trusty RO----AI friend..." )
+print("Hello and Thank you for using "+ application_name.upper() + " I am your trusty RO----AI friend..." )
 sleep(2)
 print(ai_name.upper())
+sleep(2)
+print("Okay let's get started I will be need both your first name and last name...")
+sleep(2)
 first_name = input(str("Enter First Name Here: "))
 last_name = input(str("Enter Last Name Here: "))
 
