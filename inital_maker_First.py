@@ -1,4 +1,5 @@
 
+#Using sleep to add a delay in between prints I don't need them but I thought they added to the application and so I can test out delays.
 from time import sleep
 #When the application name appears in the print it will say the name of the application.
 application_name = "inital maker 3000"
