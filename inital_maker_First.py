@@ -1,10 +1,7 @@
 # Imported Modules
 import time
-# Variables of app names
-application_name = "inital maker 3000"
-ai_name = "Billy"
-# Start of the app
-def Introduction():
+# funtion 
+def Introduction(application_name= "inital maker 3000",ai_name= "Billy"):
     print(f"Hello and Thank you for using {application_name.upper()} I am your trusty RO----AI friend...")
     time.sleep(2)
     print(ai_name.upper())
@@ -33,7 +30,7 @@ def inital():
 
 inital()
 # This will create a file called inital.txt that prints the inital results.
-def filemaker():
+def filemaker(application_name= "inital maker 3000",ai_name= "Billy"):
     with open('inital.txt', mode='w') as f:
         f.write(f"Thank you for using {application_name} {first_name} {last_name}!" 
                 f"This file contains your inital don't lose it!\n{first_letter}{last_letter}\n"
